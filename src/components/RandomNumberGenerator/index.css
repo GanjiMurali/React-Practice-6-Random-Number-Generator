@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  height: auto;
+  width: 50%;
+  max-width: 550px;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 3px 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    height: auto;
+    width: 550px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  color: #0b69ff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+.paragraph {
+  font-family: 'Roboto';
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 30px;
+  }
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  background-color: #0b69ff;
+  color: white;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+  }
+}
+
+.num {
+  font-family: 'Roboto';
+  color: #0b69ff;
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .num {
+    font-size: 48px;
+  }
+}
